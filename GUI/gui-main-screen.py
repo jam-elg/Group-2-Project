@@ -142,9 +142,9 @@ while running:
                 y = START_Y + row * (CARD_HEIGHT + MARGIN_Y)
                 card_rect = pygame.Rect(x, y, CARD_WIDTH, CARD_HEIGHT)
                 
-                if card_rect.collidepoint(mouse_pos):
-                    gui_bid_screen.bid_screen()
-                    break
+                # if card_rect.collidepoint(mouse_pos):
+                #     gui_bid_screen.bid_screen()
+                #     break
 
     pygame.display.flip()
 
